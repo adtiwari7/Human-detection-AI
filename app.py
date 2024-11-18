@@ -1,3 +1,8 @@
+import os
+os.system('pip install flask')
+os.system('pip install ultralytics')
+
+
 import flask 
 from flask import Flask, request, jsonify
 from ultralytics import YOLO
